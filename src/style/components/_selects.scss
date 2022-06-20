@@ -1,0 +1,30 @@
+@import "../utils/variables";
+@import "../utils/animations";
+
+.select {
+  appearance: none;
+  background-color: #fff;
+  margin: 0;
+  color: $clr-black;
+  width: 1.3em;
+  height: 1.3em;
+  //border: 0.15em solid $clr-black;
+  border-radius: 0.15em;
+  transform: translateY(-0.075em);
+  font-family: $font-barlow;
+  letter-spacing: 0.6px;
+  margin-right: 1rem;
+
+  &:after {
+    content: "";
+    position: absolute;
+    display: block;
+    // background-image: url("/src/assets/icons/chef.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  &:checked {
+    content: url("/src/assets/icons/chef.png");
+  }
+}

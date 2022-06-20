@@ -1,0 +1,51 @@
+﻿@import "../style/base/reset";
+@import "../style/base/root";
+@import "../style/base/sr-only";
+@import "./utils/variables";
+
+/*--------COMPONENTS-------------------------------------------------------------------------------------------------------*/
+@import "./components/Header";
+@import "./components/Hero";
+@import "./components/Toggle";
+@import "./components/TopRecipes";
+@import "./components/PageBreak";
+@import "./components/SubHeader";
+@import "./components/AddRecipeForm";
+@import "./components/RecipeSearchSideNav";
+@import "./components/SearchResults";
+@import "./components/Loader";
+@import "./components/buttons";
+@import "./components/selects";
+@import "./components/dropdowns";
+@import "./components/form-inputs";
+@import "./components/alertPopUp";
+@import "./components//UserSubHeader";
+@import "./components//User";
+@import "./components/feedback";
+@import "./components/userWeekPlanner";
+
+/*--------PAGES-------------------------------------------------------------------------------------------------------*/
+@import "./pages/AddRecipe";
+@import "./pages/Recipes";
+@import "./pages/recipeDetail";
+
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+
+body::-webkit-scrollbar {
+  width: 1em;
+  display: none;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: $clr-dark-grey-blue-rgba;
+  border-radius: 10px;
+  outline: 1px solid rgb(0, 0, 0);
+}
+
+body {
+  background-color: $clr-light-grey;
+}

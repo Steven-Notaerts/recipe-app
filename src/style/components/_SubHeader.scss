@@ -1,0 +1,51 @@
+@import "../utils/variables";
+
+/*sub header on all pages*/
+.sub-header {
+
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 5rem;
+    width: 100%;
+    max-width: $max-body-width;
+
+
+    &__container {
+        width: 100%;
+        max-width: $max-container-width;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__title {
+        font-family: $font-indie-flower;
+        font-size: 2rem;
+        line-height: 4.1rem;
+        letter-spacing: 1px;
+    }
+
+    &__sub-title {
+        font-family: $font-barlow;
+        font-size: 1rem;
+        color: black;
+        max-width: 500px;
+        line-height: 1.4rem;
+        letter-spacing: 1px;
+    }
+
+    &__btn-container {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: center;
+        height: 8rem;
+    }
+
+    &__submit-button {
+        margin: 0 1rem;
+    }
+
+}

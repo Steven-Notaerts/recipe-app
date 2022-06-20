@@ -1,0 +1,81 @@
+/* colors ---------------------------------------------------*/
+$clr-light-grey: #dcdcdd;
+$clr-medium-grey: #c5c3c6;
+$clr-dark-grey: #46494c;
+$clr-dark-grey-blue: #4c5c68;
+$clr-dark-grey-blue-rgba: rgba(76, 92, 104, 0.8);
+$clr-medium-blue: #1985a1;
+$clr-orange: #ea7317;
+$clr-white: #fff;
+$clr-body-background: #e2ddd0;
+$clr-black: #000000;
+
+$clr-light-mode: rgba(139, 146, 151, 0.8);
+
+/* fonts ---------------------------------------------------*/
+$font-barlow-condensed: "Barlow Condensed", sans-serif;
+$font-barlow: "Barlow", sans-serif;
+$font-indie-flower: "Indie Flower", cursive;
+
+/* width & height ---------------------------------------------------*/
+$max-header-container-width: 1600px;
+$max-container-width: 1500px;
+$max-body-width: 5000px;
+
+/*shadows---------------------------------------------------*/
+
+$text-shadow: 5px 6px 6px #000000;
+$box-shadow: 4px 15px 22px 1px rgba(0, 0, 0, 0.36);
+
+/* Screen sizes ---------------------------------------------------*/
+// smartphones, iPhone, portrait 480x320 phones
+// 320px / 16 = 20(r)em
+//min width
+$small-screen-320: 20rem;
+
+@media (min-width: 20rem) {
+}
+
+//portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide.
+//481px / 16 = 30.0625(r)em
+//min width
+$small-screen-481: 30.0625rem;
+
+@media (min-width: 30.0625rem) {
+}
+
+// portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones
+//641px / 16 = 40.0625(r)em
+//min width
+$medium-screen-641: 40.0625rem;
+
+@media (min-width: 40.0625rem) {
+}
+
+// tablet, landscape iPad, lo-res laptops ands desktops
+//961px / 16 = 60.0625(r)em
+//min width
+$medium-screen-961: 60.0625rem;
+
+@media (min-width: 60.0625rem) {
+}
+
+// big landscape tablets, laptops, and desktops
+//1025px / 16 = 64.0625(r)em
+//min width
+$large-screen-1025: 64.0625rem;
+
+@media (min-width: 64.0625rem) {
+}
+
+//min width
+$larger-screen-1281: 80.0625rem;
+
+//1281px / 16 =80.0625(r)em
+//hi-res laptops and desktops
+@media (min-width: 80.0625rem) {
+}
+
+//mobile : 375 * 667
+//tables: 768 * 1024
+//desktop: 1440 * 900

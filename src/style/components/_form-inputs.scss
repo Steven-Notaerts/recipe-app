@@ -1,0 +1,58 @@
+@import "../utils/variables";
+@import "../utils/animations";
+
+.form-input {
+  //width: 250px;
+  height: 1.6rem;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  border-bottom: 1px solid $clr-medium-blue;
+
+  &__long {
+    width: 250px;
+    &:focus {
+      animation: inputChange;
+      animation-duration: 0.4s;
+      animation-iteration-count: 1;
+      animation-timing-function: ease;
+      animation-fill-mode: forwards;
+    }
+  }
+
+  &:focus {
+    animation: inputChange;
+    animation-duration: 0.4s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+  }
+  &__file-label {
+    height: 1.6rem;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    border-bottom: 1px solid $clr-medium-blue;
+    &:focus {
+      animation: inputChange;
+      animation-duration: 0.4s;
+      animation-iteration-count: 1;
+      animation-timing-function: ease;
+      animation-fill-mode: forwards;
+    }
+  }
+  &__text-area {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    border-bottom: 1px solid $clr-medium-blue;
+    resize: none;
+    &:focus {
+      animation: inputChange;
+      animation-duration: 0.4s;
+      animation-iteration-count: 1;
+      animation-timing-function: ease;
+      animation-fill-mode: forwards;
+    }
+  }
+}

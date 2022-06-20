@@ -1,0 +1,39 @@
+@import "../utils/variables";
+
+.recipes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // position: fixed;
+  width: 100%;
+  max-width: $max-body-width;
+  margin-top: 6rem;
+
+  &__container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: $max-container-width;
+  }
+
+  &__title {
+    font-family: $font-indie-flower;
+    font-size: 2rem;
+    line-height: 4.1rem;
+    letter-spacing: 1px;
+    //  color: $clr-white;
+    text-shadow: $text-shadow;
+    margin-top: 1rem;
+  }
+
+  &__components {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.select-label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}

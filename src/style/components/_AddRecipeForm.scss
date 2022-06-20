@@ -1,0 +1,75 @@
+@import "../utils/variables";
+
+.form-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: fixed;
+  top: 5rem;
+  width: 100%;
+  max-width: $max-body-width;
+
+  &__container {
+    width: 100%;
+    max-width: $max-container-width;
+    width: 1500px;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 1rem 1rem 0;
+    //   flex-direction: column;
+  }
+
+  &__title {
+    margin-bottom: 1.4rem;
+    text-decoration: underline;
+    text-underline-offset: 0.5em;
+  }
+
+  &__information-recipe {
+    border: 2px solid black;
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    padding: 1rem;
+  }
+
+  &__label {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+  }
+
+  &__ingredients {
+    border: 2px solid black;
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 1rem;
+    padding: 1rem;
+  }
+
+  &__preparation-method {
+    border: 2px solid black;
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+}
+
+.form-input {
+  width: 100px;
+  text-align: center;
+}
+
+.table-head {
+  text-decoration: underline;
+  &__row {
+  }
+}

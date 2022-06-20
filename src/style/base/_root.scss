@@ -1,0 +1,23 @@
+﻿html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/*bij*/
+.box-grid {
+  background: #fff;
+  width: 900px;
+  height: 300px;
+}
+
+.box {
+  border: 15px solid #444;
+  display: inline-block;
+  height: 200px;
+  margin: 50px 10px;
+  width: 280px;
+}

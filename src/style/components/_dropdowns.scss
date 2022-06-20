@@ -1,0 +1,31 @@
+@import "../utils/variables";
+@import "../utils/animations";
+
+.select-main {
+  height: 1.6rem;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  border-bottom: 1px solid $clr-medium-blue;
+  cursor: pointer;
+
+  &__long {
+    width: 250px;
+  }
+
+  &__option {
+    padding-left: 1rem;
+  }
+
+  &:focus {
+    animation: inputChange;
+    animation-duration: 0.4s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+  }
+}
+/*
+select-main
+select-main__option
+*/

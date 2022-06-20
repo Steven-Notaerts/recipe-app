@@ -1,0 +1,35 @@
+@import "../utils/variables";
+
+.add-recipe {
+  // margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+
+  &__title {
+    font-family: $font-indie-flower;
+    font-size: 2rem;
+    line-height: 4.1rem;
+    letter-spacing: 1px;
+    //  color: $clr-white;
+    text-shadow: $text-shadow;
+  }
+
+  &__page-description {
+    font-family: $font-barlow;
+    font-size: 1rem;
+    color: black;
+    max-width: 500px;
+    line-height: 1.4rem;
+    letter-spacing: 1px;
+    // color: $clr-medium-grey;
+    text-shadow: $text-shadow;
+  }
+}
+
+.theme-switch__input:checked ~ body {
+  background-color: red;
+}

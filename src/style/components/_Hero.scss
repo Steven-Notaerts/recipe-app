@@ -1,0 +1,100 @@
+@import "../utils/variables";
+
+.hero-dark {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: linear-gradient(
+      to bottom,
+      rgba(51, 55, 69, 0.62),
+      rgba(51, 55, 69, 0.73)
+    ),
+    url("../assets/image/hero-img/fruit-large.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 60rem;
+  margin-top: -5rem;
+  object-fit: cover;
+
+  &__container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 375px;
+    width: 100%;
+    max-width: $max-container-width;
+    height: 100%;
+  }
+
+  &__main-title {
+    font-family: $font-indie-flower;
+    font-size: 4rem;
+    line-height: 4.1rem;
+    color: $clr-white;
+    letter-spacing: 1px;
+    text-shadow: $text-shadow;
+    margin-bottom: 2rem;
+  }
+
+  &__description {
+    font-family: $font-barlow;
+    font-size: 1rem;
+    color: $clr-medium-grey;
+    max-width: 500px;
+    line-height: 1.4rem;
+    letter-spacing: 1px;
+    text-shadow: $text-shadow;
+  }
+}
+/*normal*/
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: linear-gradient(
+      to bottom,
+      rgba(129, 130, 136, 0.62),
+      rgba(59, 60, 62, 0.73)
+    ),
+    url("../assets/image/hero-img/fruit-large.jpg");
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 60rem;
+  margin-top: -5rem;
+  object-fit: cover;
+
+  &__container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 375px;
+    width: 100%;
+    max-width: $max-container-width;
+    height: 100%;
+  }
+
+  &__main-title {
+    font-family: $font-indie-flower;
+    font-size: 4rem;
+    line-height: 4.1rem;
+    color: $clr-white;
+    letter-spacing: 1px;
+    text-shadow: $text-shadow;
+    margin-bottom: 2rem;
+  }
+
+  &__description {
+    font-family: $font-barlow;
+    font-size: 1rem;
+    color: $clr-medium-grey;
+    max-width: 500px;
+    line-height: 1.4rem;
+    letter-spacing: 1px;
+    text-shadow: $text-shadow;
+  }
+}

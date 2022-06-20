@@ -1,0 +1,42 @@
+@import "variables";
+@keyframes buttonChange {
+  from {
+    border-radius: 10px 0;
+    color: $clr-medium-blue;
+  }
+  to {
+    border-radius: 0 10px;
+    color: $clr-orange;
+  }
+}
+
+@keyframes inputChange {
+  from {
+    border-bottom: 1px solid $clr-medium-blue;
+  }
+  to {
+    border-bottom: 1px solid $clr-orange;
+  }
+}
+
+@keyframes dropdownChange {
+  from {
+    transform: scaleY(1);
+  }
+  to {
+    transform: scaleY(0);
+  }
+}
+
+@keyframes headerLink {
+  from {
+    color: $clr-light-grey;
+    border-bottom: 1px solid transparent;
+  }
+
+  to {
+    color: $clr-orange;
+
+    border-bottom: 1px solid $clr-orange;
+  }
+}

@@ -1,0 +1,70 @@
+@import "../utils/variables";
+
+.top-recipes{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__container{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        max-width: $max-container-width;
+        border: 1px solid red;
+        height: 50rem;
+    }
+
+    &__title{
+        text-align: center;
+        font-size: 3rem;
+    }
+}
+
+.carousel{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.card{
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+margin: auto;
+width: 350px;
+height: 525px;
+object-fit: cover;
+}
+
+
+.card--active{
+
+}
+
+.card--left{
+    transform: translateX(-100%) scale(0.8);
+    transition: 500ms;
+    opacity: 0.7;
+}
+
+.card--right {
+    transform: translateX(110%) scale(0.8);
+    transition: 500ms;
+    opacity: 0.7;
+}
+
+.card--left-left {
+    transform: translateX(-185%) scale(0.7);
+    transition: 500ms;
+    opacity: 0.7;
+}
+
+.card--right-right {
+    transform: translateX(200%) scale(0.7);
+    transition: 500ms;
+    opacity: 0.7;
+}
+

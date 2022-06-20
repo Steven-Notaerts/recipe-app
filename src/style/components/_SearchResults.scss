@@ -1,0 +1,88 @@
+@import "../utils/variables";
+
+.search-result__container {
+  &__recipes {
+  }
+}
+.search-result__recipes {
+  margin-left: 15rem;
+  width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.recipe {
+  &__link {
+    text-decoration: none;
+  }
+
+  &__container {
+    width: 200px;
+    height: 300px;
+    margin-right: 2rem;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    color: black;
+    box-shadow: $box-shadow;
+    background-color: white;
+    border-radius: 5px 0 5px 5px;
+    border: 1px solid black;
+  }
+
+  &__meal-type {
+    text-align: center;
+    vertical-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -2.7rem;
+    margin-bottom: 0.7rem;
+    margin-left: 50%;
+    background-color: white;
+    width: 100px;
+    height: 2rem;
+    text-transform: uppercase;
+    padding: 0;
+    border: 1px solid black;
+    border-bottom: none;
+    border-radius: 5px 5px 0 0;
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+
+  &__image-container {
+    border-radius: 5px;
+  }
+  &__image {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    width: 100%;
+    height: 220px;
+    margin-bottom: 0.5rem;
+    background-image: url("../assets/image/alt-picture/food-not-ready.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 5px;
+  }
+
+  &__details-container {
+  }
+
+  &__title {
+    margin-bottom: 0.5rem;
+  }
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__prep-time {
+  }
+
+  &__difficulty {
+  }
+}
